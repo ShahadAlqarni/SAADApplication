@@ -1,7 +1,9 @@
+Smart Application for Accident Detection (SAAD Application )
+
 ## Table of contents
-* [General info](#Scope-of-the-Application)
-* [Technologies](#Proposed-solution)
-* [Setup](#setup)
+* [Scope of the Application](#Scope-of-the-Application)
+* [Proposed solution](#Proposed-solution)
+* [Technologies](#Technologies)
 
 ## Scope of the Application
 In light of the Kingdom of Saudi Arabia’s orientation to build a digital society during Vision 2030, we will create an application ( SAAD ) to report accidents immediately when they occur using IOT technologies without the need for external intervention. This application ( SAAD ) helps speed up the arrival of ambulances to the exact location of the accident and the ability to save the injured in great proportion and  and advantage of the modern technology.
@@ -12,9 +14,9 @@ We propose an accident detection system ( SAAD ) that helps save victims on time
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* Android Studio
+* Firebase
+* Arduino IDE 1.8.16
 	
 ## Setup
 To run this project, install it locally using npm:
@@ -24,8 +26,6 @@ $ cd ../lorem
 $ npm install
 $ npm start
 ```
-
-Smart Application for Accident Detection (SAAD Application )
 
 
 
