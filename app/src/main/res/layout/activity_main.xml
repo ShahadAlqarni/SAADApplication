@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:background="#F7FFFFFF"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F7FFFFFF"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#009688"
+                app:subtitleTextColor="#0A0A0A"
+                app:titleTextColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/text_Note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Note, nothing can be done on this page unless an accident occurs. Thanks!"
+            android:gravity="left"
+            android:textAlignment="gravity"
+            android:textStyle="bold"
+            android:textColor="#00A19D"
+            android:textSize="@dimen/_15ssp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To whom do you want to send the notice? "
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:textColor="#E05D5D"
+            android:textSize="@dimen/_18ssp"
+            android:gravity="center"
+            tools:ignore="MissingConstraints" />
+
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_200sdp"
+            tools:context=".MapsActivity">
+
+            <fragment
+                android:id="@+id/mapFragment"
+                android:layout_marginTop="@dimen/_12sdp"
+                class="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/currentLocationImageButton"
+                android:layout_width="@dimen/_12sdp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_baseline_add_location_24" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_18ssp"
+            android:gravity="center">
+            <CheckBox
+                android:id="@+id/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Red crescent" />
+
+            <CheckBox
+                android:id="@+id/police"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Police"/>
+
+            <CheckBox
+                android:id="@+id/family"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Family" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:layout_marginTop="@dimen/_15ssp"
+            android:backgroundTint="#FFB344"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/drawer_menu">
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

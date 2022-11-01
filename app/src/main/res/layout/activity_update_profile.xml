@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hfad.SAADApplication.updateProfile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="this update"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4F3F3"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/backToMain"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:background="@mipmap/ic_backbutton" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/_5ssp"
+                    android:paddingRight="@dimen/_30ssp"
+                    android:paddingBottom="@dimen/_5ssp">
+
+
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="@dimen/_230sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:paddingRight="@dimen/_30ssp"
+                        android:src="@drawable/account" />
+
+                    <TextView
+                        android:id="@+id/text_update"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/EditeDriver_FullName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="FullName: "
+                    android:textColor="#000000"
+                    android:textSize="@dimen/_13ssp" />
+
+                <EditText
+                    android:id="@+id/EditeDriver_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:hint="Enter The FullName"
+                    android:inputType="textEmailAddress"
+                    android:textSize="@dimen/_12ssp" />
+
+                <TextView
+                    android:id="@+id/EditeDriver_PhoneText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Phone Number:"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/_13ssp" />
+
+                <EditText
+                    android:id="@+id/EditeDriver_Phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:hint="Enter The Phone Number"
+                    android:inputType="phone"
+                    android:textSize="@dimen/_12ssp" />
+
+                <TextView
+                    android:id="@+id/EditeRelativeNumberText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Relative Number:"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/_13ssp" />
+
+                <EditText
+                    android:id="@+id/EditeRelativeNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:hint="Enter The Relative Number"
+                    android:inputType="number"
+                    android:textSize="@dimen/_12ssp"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/EditeDisabled"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_16ssp"
+                        android:text="Are you a disabled person? "
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <RadioGroup
+                        android:id="@+id/EditeDisabledsGroups"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/EditeDisabledYes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/EditeDisabledNo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/EditechronicIllness"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Are you suffering from a chronic illness? "
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <RadioGroup
+                        android:id="@+id/EditechronicIllnessGroups"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/EditechronicIllnessYes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/EditechronicIllnessNo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="No" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/EditeWhatchronicIllness"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="If you choose yes, what is the chronic illness?"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <EditText
+                        android:id="@+id/EditechronicIllnessKind"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:ems="10"
+                        android:hint="chronic illness"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:id="@+id/EditeCarIDText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="Car ID:"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <EditText
+                        android:id="@+id/EditeCarID"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:ems="10"
+                        android:hint="Car ID"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:id="@+id/EditeCarCompanyText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="Car Company:"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <EditText
+                        android:id="@+id/EditeCarCompany"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:ems="10"
+                        android:hint="Car Company"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:id="@+id/EditeCarColorText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="Car Color:"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <EditText
+                        android:id="@+id/EditeCarColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:background="@color/white"
+                        android:ems="10"
+                        android:hint="Car Color"
+                        android:textSize="@dimen/_12ssp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/EditeAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E05D5D"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:minWidth="@dimen/_120sdp"
+                    android:padding="@dimen/_8ssp"
+                    android:singleLine="true"
+                    android:text="Update account"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_15ssp"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

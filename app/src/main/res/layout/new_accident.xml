@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,2,3,4"
+    android:background="@drawable/background"
+    android:layout_margin="@dimen/_8sdp">
+
+    <TableRow>
+        <TextView
+            android:textColor="#FF00A19D"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:layout_column="1"/>
+        <TextView
+            android:text="Location"
+            android:textColor="#FF00A19D"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:layout_column="1"/>
+        <TextView
+            android:text="driver data"
+            android:textColor="#FF00A19D"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:layout_column="1"/>
+        <TextView
+            android:text="Done"
+            android:textColor="#FF00A19D"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/new_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</TableLayout>
+</ScrollView>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F3"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F4F3F3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_20ssp"
+            android:paddingLeft="@dimen/_40ssp"
+            android:paddingRight="@dimen/_40ssp"
+            android:paddingTop="@dimen/_10ssp" >
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:src="@drawable/saadlogo"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/_15ssp" >
+
+                <TextView
+                    android:id="@+id/WelcomeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_14sdp"
+                    android:text="Welcome to the (SAAD) application"
+                    android:textAlignment="center"
+                    android:textColor="#E05D5D"
+                    android:textSize="@dimen/_25ssp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/User"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="@dimen/_12ssp"
+                android:text="who are you?"
+                android:textAlignment="center"
+                android:textColor="#00A19D"
+                android:textSize="@dimen/_22ssp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/UserType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00A19D"
+                android:entries="@array/UserTypeSpinner"
+                android:foregroundTint="#00A19D"
+                />
+
+
+            <Button
+                android:id="@+id/LoginToTheApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20ssp"
+                android:gravity="center"
+                android:backgroundTint="#E05D5D"
+                android:includeFontPadding="false"
+                android:minWidth="120dp"
+                android:padding="@dimen/_8ssp"
+                android:singleLine="true"
+                android:text="Next"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_20ssp"
+                android:visibility="visible"
+                android:onClick="onClickFindUserType"
+                tools:ignore="UsingOnClickInXml" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

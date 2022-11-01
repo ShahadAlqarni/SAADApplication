@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_20sdp"
+    android:paddingRight="@dimen/_20sdp">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/_160sdp"
+        android:text=" Accident Page"
+        android:textColor="#E05D5D"
+        android:textSize="@dimen/_35ssp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:backgroundTint="#E05D5D"
+        android:onClick="onClicknew"
+        android:text="New Accident Notifications"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_17sdp" />
+
+    <Button
+        android:id="@+id/old"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:backgroundTint="#FFB344"
+        android:onClick="onClickall"
+        android:text="All Accident Notifications"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18sdp" />
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <!-- SMS -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!-- Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Accident Detection"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.SAADApp">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyARmlmIjRVWrlG05ugzIY03o_fTuey1qds" />
+        <activity
+            android:name=".Successfully"
+            android:exported="false" />
+        <activity
+            android:name="com.hfad.relevent.red.driverData"
+            android:exported="true"/>
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerificationPhone"
+            android:exported="false" />
+        <activity
+            android:name="com.hfad.relevent.red.red_NewAccident"
+            android:exported="true"
+            android:parentActivityName="com.hfad.relevent.red.red_MainPage"/>
+        <activity
+            android:name=".SingUpPage"
+            android:usesCleartextTraffic="true"
+            android:exported="true" />
+        <activity
+            android:name="com.hfad.relevent.red.red_AllAccident"
+            android:exported="true"
+            android:parentActivityName="com.hfad.relevent.red.red_MainPage"/>
+        <activity
+            android:name="com.hfad.relevent.loginRelevent"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="com.hfad.SAADApplication.loginRelevent"/>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hfad.relevent.red.red_MainPage"
+            android:exported="true" />
+        <activity
+            android:name="com.hfad.relevent.police.police_MainPage"
+            android:exported="true" />
+        <activity
+            android:name="com.hfad.relevent.police.police_AllAccident"
+            android:exported="true" />
+        <activity
+            android:name="com.hfad.relevent.police.police_NewAccident"
+            android:exported="true" />
+        <activity
+            android:name=".LogINPage"
+            android:exported="false" />
+        <activity
+            android:name=".startPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".aboutApp"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".updateProfile"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+    </application>
+
+</manifest>

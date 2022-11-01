@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hfad.SAADApplication.NotificationActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="@dimen/_16ssp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:text="Send alert to: \n -Saudi Red Crescent \n -Traffic Accident Police \n -Person of family"
+        android:textColor="#E05D5D"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05:00"
+            android:textStyle="bold"
+            android:textSize="@dimen/_36ssp"></TextView>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E05D5D"
+            android:text="Automatic inform"
+            android:onClick="Automatic_Action"
+            android:layout_marginTop="@dimen/_90sdp"/>
+
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFB344"
+            android:text="Personal inform"
+            android:onClick="Personal_Action"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E05D5D"
+            android:text="Exit"
+            android:onClick="Exit_Action"
+            android:layout_marginTop="@dimen/_10sdp"/>
+    </LinearLayout>
+
+</LinearLayout>

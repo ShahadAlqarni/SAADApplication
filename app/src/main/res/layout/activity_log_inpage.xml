@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F3F3"
+    android:gravity="center"
+    tools:context="com.hfad.SAADApplication.LogINPage">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_10ssp"
+            android:paddingLeft="@dimen/_40ssp"
+            android:paddingRight="@dimen/_40ssp"
+            android:paddingTop="@dimen/_10ssp" >
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/_240sdp"
+                android:layout_height="@dimen/_110sdp"
+                android:src="@drawable/saadlogo"
+                tools:ignore="MissingConstraints" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/_15ssp" >
+
+                <TextView
+                    android:id="@+id/WelcomeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="Welcome to the (SAAD) Application"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#00A19D"
+                    android:textSize="@dimen/_20ssp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/WelcomeTexrrt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_10ssp"
+                android:text="If you have an account please sign in:"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:textColor="#E05D5D"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/PhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/_5ssp"
+                android:text="Email Address:"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp" />
+            <EditText
+                android:id="@+id/TextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@color/white"
+                android:hint="Enter Email Address"
+                android:textSize="@dimen/_12ssp"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/DriverPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Password:"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp" />
+            <EditText
+                android:id="@+id/TextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:background="@color/white"
+                android:hint="Enter Password"
+                android:textSize="@dimen/_12ssp" />
+
+            <Button
+                android:id="@+id/SignIN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5ssp"
+                android:backgroundTint="#FFB344"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:minWidth="@dimen/_120sdp"
+                android:onClick="onClickSignIn"
+                android:padding="@dimen/_8ssp"
+                android:singleLine="true"
+                android:text="Login"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_15ssp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/SingUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25ssp"
+                android:backgroundTint="#E05D5D"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:minWidth="@dimen/_120sdp"
+                android:onClick="onClickSingUpDriver"
+                android:padding="@dimen/_8ssp"
+                android:singleLine="true"
+                android:text="New? Register Now!"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_15ssp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

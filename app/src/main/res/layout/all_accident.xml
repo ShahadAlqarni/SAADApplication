@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:stretchColumns="1,2,3,4"
+    android:layout_margin="@dimen/_8sdp">
+
+    <TableRow>
+        <TextView
+            android:textColor="#FF00A19D"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:layout_column="1"/>
+        <TextView
+            android:textColor="#FF00A19D"
+            android:text="Location"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:layout_column="1"/>
+        <TextView
+            android:textColor="#FF00A19D"
+            android:text="Phone Number"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:layout_column="1"/>
+        <TextView
+            android:textColor="#FF00A19D"
+            android:text="Done"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/old_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</TableLayout>
+</ScrollView>
