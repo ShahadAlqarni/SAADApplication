@@ -1,6 +1,5 @@
 # Smart Application for Accident Detection (SAAD Application )
 > We develop an accident detection system ( SAAD ) that helps save victims on time and reduces the risk of death from road accidents. The system ( SAAD ) will send an immediate alert to the saudi red crescent and traffic accident police team the scene to inform them of the incident so they can take immediate action. The application( SAAD ) will help to determine the exact location, as well as the patient’s condition, health, and personal data.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [Scope of the Application](#Scope-of-the-Application)
