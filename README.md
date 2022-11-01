@@ -30,10 +30,10 @@ Project is created with:
 
 ## Contact
 Created by:
-* Shahad Alqarni [@Shahad](https://github.com/ShahadAlqarni) - feel free to contact me!
-* Sara Al-harthi [@Sara](smba0505@gmail.com)
-* Rahaf Alotaibi [@Rahaf](Rahaf_mohammed1@outlook.com)
-* Relam Aljohany [@Relam](Relam2118@hotmail.com) 
+* [@Shahad Alqarni](https://github.com/ShahadAlqarni) - feel free to contact me!
+* Sara Al-harthi smba0505@gmail.com
+* Rahaf Alotaibi Rahaf_mohammed1@outlook.com
+* Relam Aljohany Relam2118@hotmail.com
 
 
 <!-- Optional -->
