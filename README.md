@@ -4,9 +4,8 @@
 ## Table of Contents
 * [Scope of the Application](#Scope-of-the-Application)
 * [Technologies](#Technologies)
-* [Driver Interfaces](#general-information)
-* [Relevant Authorities Interface](#technologies-used)
-* [Acknowledgements](#acknowledgements)
+* [Driver Interfaces](#Driver-Interfaces)
+* [Relevant Authorities Interface](#[Relevant-Authorities-Interface)
 * [Contact](#contact)
 <!-- * [License](#license) -->
 
@@ -23,7 +22,12 @@ Project is created with:
 
 
 
-## Screenshots
+## Driver Interfaces
+![Example screenshot](./img/screenshot.png)
+<!-- If you have screenshots you'd like to share, include them here. -->
+
+
+## Relevant Authorities Interface
 ![Example screenshot](./img/screenshot.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
@@ -36,11 +40,6 @@ Created by:
 * Relam Aljohany Relam2118@hotmail.com
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
 
 
 
