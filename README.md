@@ -23,8 +23,10 @@ Project is created with:
 
 
 ## Driver Interfaces
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+* Start Pages
+The first interface will appear to the user when the application is opened it will determine whether it is a driver or belongs to the relevant authorities (police or ambulance).
+When the driver option is selected, the application will display a dialog box containing the terms and conditions of our application, when the driver clicks ”Yes I AGREE!” The page to enter the application will be displayed.When he has a preexisting account, he must enter the email and password and then click “LOGIN”, and when he does not have an account, he must click “Sign up now”.
+
 
 
 ## Relevant Authorities Interface
