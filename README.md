@@ -62,8 +62,43 @@ When clicking on the navigation bar, the application will appear for the driver 
 <br/><br/>
 
 ## Relevant Authorities Interface
-<!-- If you have screenshots you'd like to share, include them here. -->
+* Login Interface: <br/>
+The first interface of the relevant authorities will appear when you open the application.
+<p align="center">
+<img width="131" alt="31" src="https://user-images.githubusercontent.com/98490850/199365448-0f78c2ba-7cd7-4471-8a3b-ec63f3ee91a7.png">
+</p>
+<br/><br/>
 
+* Home Interface: <br/>
+This will be the main page for the relevant authorities, where it will have two options, the first is new notifications from users, and the other is all the notifications sent to the relevant authorities.
+<p align="center">
+<img width="131" alt="32" src="https://user-images.githubusercontent.com/98490850/199365597-0d99fccb-59af-4c0c-ae72-e771f4ab597a.png">
+</p>
+<br/><br/>
+
+*  Accident Notification Interface: <br/> This interface will display new accident notifications sent by drivers.
+<p align="center">
+<img width="127" alt="33" src="https://user-images.githubusercontent.com/98490850/199365713-5d36212b-0599-4c6a-81a0-cffce002eb94.png">
+</p>
+<br/><br/>
+
+• This interface will display all accident notifications sent by drivers.
+<p align="center">
+<img width="127" alt="34" src="https://user-images.githubusercontent.com/98490850/199365792-9de2d82b-e10c-47f1-af8b-ff68f3cc8d73.png">
+</p>
+<br/><br/>
+
+• The Relevant Authorities can see information about the driver when they click on the Data button.
+<p align="center">
+<img width="129" alt="35" src="https://user-images.githubusercontent.com/98490850/199365906-ade197f8-83d9-4a0e-a2e6-9b517c3a6af9.png">
+</p>
+<br/><br/>
+
+• A message about the driver’s accident will appear as follows when sent to a member of the driver’s family:
+<p align="center">
+<img width="128" alt="36" src="https://user-images.githubusercontent.com/98490850/199366002-ca5be92a-d15e-49fc-a0d0-462cc6434254.png">
+</p>
+<br/><br/>
 
 ## Contact
 Created by:
