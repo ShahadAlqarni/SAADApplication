@@ -49,9 +49,9 @@ When the driver option is selected, the application will display a dialog box co
 </p>
 <br/>
 When clicking on the navigation bar, the application will appear for the driver with several options that enable him to choose a specific page according to the activity he wants.
-• When the driver clicking on the ”home” he is returned to the home page.
-• When the driver clicks on the” Update profile” the application will display the update page , and the driver can update his data.
-• When the driver clicks on the”About (SAAD)” the application will display the about page, which gives the idea about our application and enables the driver to send an e-mail to us through click on ”Contact us”.
+• When the driver clicking on the ”home” he is returned to the home page.<br/>
+• When the driver clicks on the” Update profile” the application will display the update page , and the driver can update his data.<br/>
+• When the driver clicks on the”About (SAAD)” the application will display the about page, which gives the idea about our application and enables the driver to send an e-mail to us through click on ”Contact us”.<br/>
 • When the driver clicks ”Log out” the application will display a dialog box  when the driver clicks ”CLOSE!” The application will interact with it and log out from the account.
 <br/><br/>
 
