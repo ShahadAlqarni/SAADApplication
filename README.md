@@ -48,7 +48,7 @@ When the driver option is selected, the application will display a dialog box co
 <img width="131" alt="24" src="https://user-images.githubusercontent.com/98490850/199356357-28bd5f5f-ed81-4907-9184-5dab8f6fa2cf.png">
 </p>
 <br/>
-When clicking on the navigation bar, the application will appear for the driver with several options that enable him to choose a specific page according to the activity he wants.
+When clicking on the navigation bar, the application will appear for the driver with several options that enable him to choose a specific page according to the activity he wants. <br/>
 • When the driver clicking on the ”home” he is returned to the home page.<br/>
 • When the driver clicks on the” Update profile” the application will display the update page , and the driver can update his data.<br/>
 • When the driver clicks on the”About (SAAD)” the application will display the about page, which gives the idea about our application and enables the driver to send an e-mail to us through click on ”Contact us”.<br/>
