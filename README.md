@@ -60,6 +60,7 @@ When clicking on the navigation bar, the application will appear for the driver 
 <img width="353" alt="25" src="https://user-images.githubusercontent.com/98490850/199363952-8433b7f3-a561-4946-a411-464e83c9aa3d.png">
 </p>
 <br/><br/>
+
 ## Relevant Authorities Interface
 <!-- If you have screenshots you'd like to share, include them here. -->
 
